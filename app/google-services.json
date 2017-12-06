@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "216335637623",
+    "firebase_url": "https://fragproj.firebaseio.com",
+    "project_id": "fragproj",
+    "storage_bucket": "fragproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216335637623:android:ba34961c9bb368a6",
+        "android_client_info": {
+          "package_name": "com.example.vivek.newchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216335637623-dso778416r77j2ntngtg369l3tmtht26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHwUbT0yKmQ8gvofxoq6mRAbz3_c4jr8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

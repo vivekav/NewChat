@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vivek.newchat.authentication.LoginFragment">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/etloginpass"
+            android:hint="Enter Password"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/etloginmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text=" here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignBaseline="@+id/tvview2"
+            android:layout_alignBottom="@+id/tvview2"
+            android:layout_toRightOf="@+id/tvview2"
+            android:layout_toEndOf="@+id/tvview2"
+            android:id="@+id/tvsignup"
+
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_marginTop="77dp"
+            android:id="@+id/etloginmail"
+            android:hint="Enter Email"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/tvview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnSignIn"
+            android:layout_marginLeft="97dp"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="35dp"
+            android:text="Not Registered? Sign up"
+            android:textSize="16sp" />
+
+        <Button
+            android:text="Sign-in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignIn"
+            android:layout_below="@+id/etloginpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+
+    </RelativeLayout>
